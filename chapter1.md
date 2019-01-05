@@ -1,10 +1,8 @@
 # 第一章 AWS简介
 
-本章所涵盖的目标可能包括但不包括限于以下内容：
+本章所涵盖的目标可能包括但不限于以下内容：
 
-Domain 1.0: Designing highly available, cost-efficient, fault-tolerant, scalable
-
-systems
+Domain 1.0: Designing highly available, cost-efficient, fault-tolerant, scalablesystems
 
 1.1 Identify and recognize cloud architecture considerations, such as
 
