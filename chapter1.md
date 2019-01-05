@@ -4,6 +4,8 @@
 
 Domain 1.0: Designing highly available, cost-efficient, fault-tolerant, scalablesystems
 
+设计高可用、高性价比高，高容错率，可计算的系统。
+
 1.1 Identify and recognize cloud architecture considerations, such as
 
 fundamental components and effective designs.
