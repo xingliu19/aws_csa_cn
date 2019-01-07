@@ -2,9 +2,7 @@
 
 本章所涵盖的目标可能包括但不限于以下内容：
 
-Domain 1.0: Designing highly available, cost-efficient, fault-tolerant, scalablesystems
-
-设计高可用、高性价比高，高容错率，可计算的系统。
+###### 一、设计高可用、高性价比高，高容错率，可计算的系统。
 
 1.1 Identify and recognize cloud architecture considerations, such as
 
@@ -28,7 +26,7 @@ Elasticity and scalability \(e.g., Auto Scaling, Amazon Simple Queue Service
 
 \[Amazon SQS\], Elastic Load Balancing, Amazon CloudFront\)
 
-Domain 2.0: Implementation/Deployment
+二、实施与部署
 
 2.1 Identify the appropriate techniques and methods using Amazon Elastic
 
@@ -74,5 +72,5 @@ advantages of cloud computing and the fundamentals of AWS. It provides an overvi
 
 AWS Cloud services that are fundamentally important for the exam.
 
-![](/assets/import2.png)
+
 
