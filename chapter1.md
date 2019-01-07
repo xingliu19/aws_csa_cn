@@ -12,7 +12,7 @@
 
 * 计划和设
 
-* 熟悉以下关于AWS架构的
+* 熟悉以下关于AWS架构的内容：
 
   * 最佳实践
 
@@ -26,7 +26,7 @@
     使用亚马逊弹性识别适当的技术和方法
 ```
 
-计算云（Amazon EC2）、Amazon简单存储服务（Amazon S3）  
+&gt;计算云（Amazon EC2）、Amazon简单存储服务（Amazon S3）  
 AWS弹性豆茎、AWS云形成、AWS Opsworks、亚马逊  
 vpc和aws身份和访问管理（iam）对代码和  
 实现云解决方案。内容包括如下：
