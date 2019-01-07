@@ -22,35 +22,15 @@
 
 基于亚马逊提供的诸如Elastic Computer Cloud\\(EC2\\)、Amazon Simple Storage Service\\(S3\\)、AWS Elastic Beanstalk、AWS CloudFormation, AWS OpsWorks 等弹性服务，选用合适的技术和方法来开发，实现云服务解决方案。内容包括如下：
 
-在混合IT架构中操作和扩展服务管理。
+* 在混合IT架构中操作和扩展服务管理。
+* 配置云服务满足合规性需求。
+* 跨AWS全局基础结构启动实例。
 
-配置云服务满足合规性需求。
 
 
+2006 年，Amazon Web Services \(AWS\) 开始以 Web 服务的形式向企业提供 IT 基础设施服务，现在通常称为云计算。云计算的主要优势之一是能够以根据业务发展来扩展的较低可变成本来替代前期资本基础设施费用。利用云，企业无需再提前数周或数月规划和采购服务器及其他 IT 基础设施。而是可以在几分钟内即时运行成百上千台服务器并更快达成结果。
 
-Configure services to support compliance requirements in the cloud.
-
-Launch instances across the AWS global infrastructure.
-
-In 2006, Amazon Web Services, Inc. \(AWS\) began offering IT infrastructure
-
-services to businesses in the form of web services, now commonly known as cloud
-
-computing. One of the key benefits of cloud computing is the opportunity to replace up-front
-
-capital infrastructure expenses with low variable costs that scale with your business. With the
-
-cloud, businesses no longer need to plan for and procure servers and other IT infrastructure
-
-weeks or months in advance. Instead, they can instantly spin up hundreds or thousands of
-
-servers in minutes and deliver results faster.
-
-Today, AWS provides a highly reliable, scalable, and low-cost infrastructure platform in the
-
-cloud that powers hundreds of thousands of businesses in more than 190 countries around
-
-the world.
+如今，AWS 在云中提供高度可靠、可扩展、低成本的基础设施平台，为全球 190 个国家/地区的数十万家企业提供支持。
 
 This chapter provides an introduction to the AWS Cloud computing platform. It discusses the
 
