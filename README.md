@@ -1,10 +1,4 @@
 # AWS Certificated Architect Official Study Guide
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.asfd
-
-
-
-
-
-asdf 
+AWS 架构师认证官方学习指南
 
