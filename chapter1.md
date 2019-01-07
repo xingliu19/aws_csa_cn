@@ -4,27 +4,16 @@
 
 ###### 一、设计高可用、高性价比高，高容错率，可计算的系统。
 
-1.1 Identify and recognize cloud architecture considerations, such as
+1. 识别云架构考虑因素，如基本组件和有效的设计。内容包括如下：
 
-fundamental components and effective designs.
+* 如何设计云服务
+* 计划和设计
+* 熟悉以下关于AWS架构的
+* 最佳实践
+* 混合IT架构（例如，AWS直接连接、AWS存储网关、Amazon虚拟私有云\[Amazon VPC\]，AWS目录服务）
+* 弹性和可扩展性（例如，自动伸缩、Amazon简单队列服务【Amazon SQS】、弹性负载平衡、Amazon CloudFront）
 
-Content may include the following:
 
-How to design cloud services
-
-Planning and design
-
-Familiarity with:
-
-Best practices for AWS architecture
-
-Hybrid IT architectures \(e.g., AWS Direct Connect, AWS Storage Gateway,
-
-Amazon Virtual Private Cloud \[Amazon VPC\], AWS Directory Service\)
-
-Elasticity and scalability \(e.g., Auto Scaling, Amazon Simple Queue Service
-
-\[Amazon SQS\], Elastic Load Balancing, Amazon CloudFront\)
 
 二、实施与部署
 
@@ -71,6 +60,4 @@ This chapter provides an introduction to the AWS Cloud computing platform. It di
 advantages of cloud computing and the fundamentals of AWS. It provides an overview of the
 
 AWS Cloud services that are fundamentally important for the exam.
-
-
 
