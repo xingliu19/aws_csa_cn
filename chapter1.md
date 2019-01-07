@@ -22,7 +22,11 @@
 
 基于亚马逊提供的诸如Elastic Computer Cloud\\(EC2\\)、Amazon Simple Storage Service\\(S3\\)、AWS Elastic Beanstalk、AWS CloudFormation, AWS OpsWorks 等弹性服务，选用合适的技术和方法来开发，实现云服务解决方案。内容包括如下：
 
-Operate and extend service management in a hybrid IT architecture.
+在混合IT架构中操作和扩展服务管理。
+
+配置云服务满足合规性需求。
+
+
 
 Configure services to support compliance requirements in the cloud.
 
