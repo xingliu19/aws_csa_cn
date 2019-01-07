@@ -9,11 +9,13 @@
 * 如何设计云服务
 
 * 计划和设
-*  熟悉以下关于AWS架构的
 
-*                最佳实践
-*                混合IT架构（例如，AWS直接连接、AWS存储网关、Amazon虚拟私有云\[Amazon VPC\]，AWS目录服务）
-*                弹性和可扩展性（例如，自动伸缩、Amazon简单队列服务【Amazon SQS】、弹性负载平衡、Amazon CloudFront）
+* 熟悉以下关于AWS架构的
+
+* 最佳实践
+
+* 混合IT架构（例如，AWS直接连接、AWS存储网关、Amazon虚拟私有云\[Amazon VPC\]，AWS目录服务）
+* 弹性和可扩展性（例如，自动伸缩、Amazon简单队列服务【Amazon SQS】、弹性负载平衡、Amazon CloudFront）
 
 二、实施与部署
 
@@ -60,4 +62,6 @@ This chapter provides an introduction to the AWS Cloud computing platform. It di
 advantages of cloud computing and the fundamentals of AWS. It provides an overview of the
 
 AWS Cloud services that are fundamentally important for the exam.
+
+
 
