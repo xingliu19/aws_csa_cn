@@ -1,14 +1,10 @@
 # 第一章 AWS简介
 
-```
-    本章所涵盖的目标可能包括但不限于以下内容：
-```
+本章所涵盖的目标可能包括但不限于以下内容：
 
 ###### 一、设计高可用、高性价比高，高容错率，可计算的系统。
 
-```
 识别云架构考虑因素，如基本组件和有效的设计。内容包括如下：
-```
 
 * 如何设计云服务
 
@@ -24,9 +20,7 @@
 
 ###### 二、实施与部署
 
-```
-    亚马逊提供了诸如Elastic Computer Cloud\(EC2\)、Amazon Simple Storage Service\(S3\)、AWS Elastic Beanstalk、AWS CloudFormation, AWS OpsWorks, Amazon
-```
+基于亚马逊提供的诸如Elastic Computer Cloud\\(EC2\\)、Amazon Simple Storage Service\\(S3\\)、AWS Elastic Beanstalk、AWS CloudFormation, AWS OpsWorks 等弹性服务，选用合适的技术和方法来开发，实现云服务。
 
 ```
 VPC 识别适当的技术和方法
