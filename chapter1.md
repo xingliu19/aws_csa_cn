@@ -25,16 +25,11 @@
 * 在混合IT架构中操作和扩展服务管理。
 * 配置云服务满足合规性需求。
 * 跨AWS全局基础结构启动实例。
+* 
+2006 年，Amazon Web Services \(AWS\) 开始以 Web 服务的形式向企业提供 IT 基础设施服务，现在通常称为云计算。云计算的主要优势之一是能够以根据业务发展来扩展的较低可变成本来替代前期资本基础设施费用。利用云，企业无需再提前数周或数月规划和采  
+购服务器及其他 IT 基础设施。而是可以在几分钟内即时运行成百上千台服务器并更快达成结果。
+
+如今，AWS 在云中提供高度可靠、可扩展、低成本的基础设施平台，为全球 190 个国家/地区的数十万家企业提供支持。
 
 
-
-2006 年，Amazon Web Services \(AWS\) 开始以 Web 服务的形式向企业提供 IT 基础设施服务，现在通常称为云计算。云计算的主要优势之一是能够以根据业务发展来扩展的较低可变成本来替代前期资本基础设施费用。利用云，企业无需再提前数周或数月规划和采购服务器及其他 IT 基础设施。而是可以在几分钟内即时运行成百上千台服务器并更快达成结果。
-
-如今，AWS 在云中提供高度可靠、可扩展、低成本的基础设施平台，为全球 190 个国家/地区的数十万家企业提供支持。
-
-This chapter provides an introduction to the AWS Cloud computing platform. It discusses the
-
-advantages of cloud computing and the fundamentals of AWS. It provides an overview of the
-
-AWS Cloud services that are fundamentally important for the exam.
 
