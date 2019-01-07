@@ -4,7 +4,7 @@
 
 ###### 一、设计高可用、高性价比高，高容错率，可计算的系统。
 
-* 识别云架构考虑因素，如基本组件和有效的设计。内容包括如下：
+        识别云架构考虑因素，如基本组件和有效的设计。内容包括如下：
 
 * 如何设计云服务
 
@@ -14,22 +14,13 @@
 
 * 最佳实践
 
-* 混合IT架构（例如，AWS直接连接、AWS存储网关、Amazon虚拟私有云\[Amazon VPC\]，AWS目录服务）
-* 弹性和可扩展性（例如，自动伸缩、Amazon简单队列服务【Amazon SQS】、弹性负载平衡、Amazon CloudFront）
+* 混合IT架构（例如，AWS Direct Connect、AWS存储网关、Amazon虚拟私有云\[Amazon VPC\]，AWS目录服务）
 
-二、实施与部署
+* 弹性和可扩展性（例如，Auto Scaling、Amazon简单队列服务【Amazon SQS】、弹性负载平衡、Amazon CloudFront）
 
-2.1 Identify the appropriate techniques and methods using Amazon Elastic
+###### 二、实施与部署
 
-Compute Cloud \(Amazon EC2\), Amazon Simple Storage Service \(Amazon S3\),
-
-AWS Elastic Beanstalk, AWS CloudFormation, AWS OpsWorks, Amazon
-
-VPC, and AWS Identity and Access Management \(IAM\) to code and
-
-implement a cloud solution.
-
-Content may include the following:
+        使用亚马逊弹性识别适当的技术和方法计算云（Amazon EC2）、Amazon简单存储服务（Amazon S3）AWS弹性豆茎、AWS云形成、AWS Opsworks、亚马逊vpc和aws身份和访问管理（iam）对代码和实现云解决方案。内容包括如下：
 
 Operate and extend service management in a hybrid IT architecture.
 
@@ -62,6 +53,4 @@ This chapter provides an introduction to the AWS Cloud computing platform. It di
 advantages of cloud computing and the fundamentals of AWS. It provides an overview of the
 
 AWS Cloud services that are fundamentally important for the exam.
-
-
 
