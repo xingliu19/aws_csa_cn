@@ -1,32 +1,216 @@
-### 访问AWS
+# 连接AWS
 
-To access AWS Cloud services, you can use the AWS Management Console, the AWS
+        您可以使用管理控制台（Console）、命令行接口（CLI）或者软件开发包来连接使用AWS云服务。
 
-Command Line Interface \(CLI\), or the AWS Software Development Kits \(SDKs\).
+        AWS的管理控制台是一个网页应用。用户可以通过它执行大量的任务。AWS每种服务都有独立的控制台，而AWS管理控制台很好地整合了它们，并且提供了账户及账单服务。
 
-The AWS Management Console is a web application for managing AWS Cloud services. The
+        命令行是自由的工具，下载、配置后，用户可以使用它控制多个任务、或者通过脚本实现任务自动化。
 
-console provides an intuitive user interface for performing many tasks. Each service has its
+        软件开发包支持多种程序语言，这意味着用户可以使用他喜欢的语言来调用云服务。使用SDK有助于降低开发HTTP调用的代码复杂度。
 
-own console, which can be accessed from the AWS Management Console. The console also
 
-provides information about the account and billing.
 
-The AWS Command Line Interface \(CLI\) is a unified tool used to manage AWS Cloud
+# 计算、网络服务
 
-services. With just one tool to download and configure, you can control multiple services
+        AWS为企业的核心功能、核心业务运行提供了各种的计算和网络服务。这些服务能最大化利用存储、数据库以及应用程序等服务，为计算、查询处理以及存储等提供完整的解决方案。 本节概要介绍核心计算和网络服务。
 
-from the command line and automate them through scripts.
 
-The AWS Software Development Kits \(SDKs\) provide an application programming interface
 
-\(API\) that interacts with the web services that fundamentally make up the AWS platform.
+Amazon Elastic Compute Cloud（EC2）
 
-The SDKs provide support for many different programming languages and platforms to allow
+        EC2是提供可伸缩计算实例的网络服务。用户可以通过Amazon的数据中心获得或配置虚拟服务器来建立或托管软件系统。企业组织可选择可配置的、适合应用工作量的资源（包括内存、CPU、存储等）。EC2提供了一个真正的虚拟环境，能让企业组织启动各种资源，装载应用程序，管理网络使用权限。
 
-you to work with your preferred language. While you can certainly make HTTP calls directly
 
-to the web service endpoints, using the SDKs can take the complexity out of coding by
 
-providing programmatic access for many of the services.
+Amazon Lambda
+
+AWS为企业的核心功能、核心业务运行提供了各种的计算和网络服务。这些服务能最大化利用存储、数据库以及应用程序等服务，为计算、查询处理以及存储等提供完整的解决方案。 本节概要介绍核心计算和网络服务。
+
+
+
+Amazon Elastic Compute Cloud（EC2）
+
+EC2是提供可伸缩计算实例的网络服务。用户可以通过Amazon的数据中心获得或配置虚拟服务器来建立或托管软件系统。企业组织可选择可配置的、适合应用工作量的资源（包括内存、CPU、存储等）。EC2提供了一个真正的虚拟环境，能让企业组织启动各种资源，装载应用程序，管理网络使用权限。
+
+
+
+Amazon Lambda
+
+AWS Lambda是一个面向后端开发人员的无管理员的计算平台，为开发人员运行代码，提供细粒度的定价。Lambda拥有可以在跨区的多个EC2实例上运行后端代码的能力，为企业组织提供AWS基础架构的高可用性，安全性，性能和可伸缩性。
+
+
+
+Auto Scaling
+
+Auto Scaling 容许企业组织根据特定的工作量条件来增加或减少它们在EC2计算能力。它不仅有助于维持应用程序可用，确保所需特定数量的EC2实例运行，而且它还允许资源的伸缩配置以满足动态变化的工作负载。企业可以根据它所需的计算能力来衡量成本，而不是以峰值负载为衡量标准。
+
+Auto Scaling适用于有稳定需求的应用和每时每天都变化的应用。
+
+
+
+Elastic Load Balancing
+
+Elastic Load Balancing能够自动在AWS上的多个EC2实例分发进入的应用程序流量。它能让组织在其应用程序中实现更高水平的容错能力，提供无缝分发流量的负载均衡能力。
+
+
+
+Amazon Elastic Beanstalk
+
+Elastic Beanstalk是在AWS上快速、简便地启动网络应用程序的方法。开发人员只需上传他们的代码，EB服务会自动完成其他细节，如资源配置，负载均衡，自动伸缩及监控等。它为各种平台提供支持，包括PHP, Java, .NET等。使用EB服务，企业组织能够完全掌握其应用程序所需资源，并且能够随时访问其底层资源。
+
+
+
+Amazon Virtual Private Cloud
+
+VPC容许企业组织划分出逻辑独立的AWS云私有区域，在其定义的私有区域内启动AWS资源。组织在这个虚拟环境内，拥有完全的控制权，包括IP地址范围、创建子网、路由网关等。除此之外，组织还可以通过硬、软VPN或者专用线路使用AWS Direct Connect将其数据中心网络扩展到AWS。
+
+
+
+Amazon Direct Connect
+
+AWS Direct Connect 容许组织建立其数据中心到AWS的专用连接。使用AWS DC，组织可以在AWS与其数据中心、办公室或托管环境之间建立私有连接。与基于Internet的VPN相比，AWS DC能够降低网络成本，增加网络带宽吞吐量，而且是一致的网络体验。
+
+
+
+Amazon Route 53
+
+Route 53是一个高可用的可扩展DNS服务。它将可读的域名转换成数字IP地址，为用户提供可靠、高效的方式，将最终用户引导到应用程序。Route53 也可以作为域名注册商，允许您直接从AWS购买和管理域名。AWS为企业的核心功能、核心业务运行提供了各种的计算和网络服务。这些服务能最大化利用存储、数据库以及应用程序等服务，为计算、查询处理以及存储等提供完整的解决方案。 本节概要介绍核心计算和网络服务。
+
+
+
+Amazon Elastic Compute Cloud（EC2）
+
+EC2是提供可伸缩计算实例的网络服务。用户可以通过Amazon的数据中心获得或配置虚拟服务器来建立或托管软件系统。企业组织可选择可配置的、适合应用工作量的资源（包括内存、CPU、存储等）。EC2提供了一个真正的虚拟环境，能让企业组织启动各种资源，装载应用程序，管理网络使用权限。
+
+
+
+Amazon Lambda
+
+AWS Lambda是一个面向后端开发人员的无管理员的计算平台，为开发人员运行代码，提供细粒度的定价。Lambda拥有可以在跨区的多个EC2实例上运行后端代码的能力，为企业组织提供AWS基础架构的高可用性，安全性，性能和可伸缩性。
+
+
+
+Auto Scaling
+
+Auto Scaling 容许企业组织根据特定的工作量条件来增加或减少它们在EC2计算能力。它不仅有助于维持应用程序可用，确保所需特定数量的EC2实例运行，而且它还允许资源的伸缩配置以满足动态变化的工作负载。企业可以根据它所需的计算能力来衡量成本，而不是以峰值负载为衡量标准。
+
+Auto Scaling适用于有稳定需求的应用和每时每天都变化的应用。
+
+
+
+Elastic Load Balancing
+
+Elastic Load Balancing能够自动在AWS上的多个EC2实例分发进入的应用程序流量。它能让组织在其应用程序中实现更高水平的容错能力，提供无缝分发流量的负载均衡能力。
+
+
+
+Amazon Elastic Beanstalk
+
+Elastic Beanstalk是在AWS上快速、简便地启动网络应用程序的方法。开发人员只需上传他们的代码，EB服务会自动完成其他细节，如资源配置，负载均衡，自动伸缩及监控等。它为各种平台提供支持，包括PHP, Java, .NET等。使用EB服务，企业组织能够完全掌握其应用程序所需资源，并且能够随时访问其底层资源。
+
+
+
+Amazon Virtual Private Cloud
+
+VPC容许企业组织划分出逻辑独立的AWS云私有区域，在其定义的私有区域内启动AWS资源。组织在这个虚拟环境内，拥有完全的控制权，包括IP地址范围、创建子网、路由网关等。除此之外，组织还可以通过硬、软VPN或者专用线路使用AWS Direct Connect将其数据中心网络扩展到AWS。
+
+
+
+Amazon Direct Connect
+
+AWS Direct Connect 容许组织建立其数据中心到AWS的专用连接。使用AWS DC，组织可以在AWS与其数据中心、办公室或托管环境之间建立私有连接。与基于Internet的VPN相比，AWS DC能够降低网络成本，增加网络带宽吞吐量，而且是一致的网络体验。
+
+
+
+Amazon Route 53
+
+Route 53是一个高可用的可扩展DNS服务。它将可读的域名转换成数字IP地址，为用户提供可靠、高效的方式，将最终用户引导到应用程序。Route53 也可以作为域名注册商，允许您直接从AWS购买和管理域名。AWS为企业的核心功能、核心业务运行提供了各种的计算和网络服务。这些服务能最大化利用存储、数据库以及应用程序等服务，为计算、查询处理以及存储等提供完整的解决方案。 本节概要介绍核心计算和网络服务。
+
+
+
+Amazon Elastic Compute Cloud（EC2）
+
+EC2是提供可伸缩计算实例的网络服务。用户可以通过Amazon的数据中心获得或配置虚拟服务器来建立或托管软件系统。企业组织可选择可配置的、适合应用工作量的资源（包括内存、CPU、存储等）。EC2提供了一个真正的虚拟环境，能让企业组织启动各种资源，装载应用程序，管理网络使用权限。
+
+
+
+Amazon Lambda
+
+AWS Lambda是一个面向后端开发人员的无管理员的计算平台，为开发人员运行代码，提供细粒度的定价。Lambda拥有可以在跨区的多个EC2实例上运行后端代码的能力，为企业组织提供AWS基础架构的高可用性，安全性，性能和可伸缩性。
+
+
+
+Auto Scaling
+
+Auto Scaling 容许企业组织根据特定的工作量条件来增加或减少它们在EC2计算能力。它不仅有助于维持应用程序可用，确保所需特定数量的EC2实例运行，而且它还允许资源的伸缩配置以满足动态变化的工作负载。企业可以根据它所需的计算能力来衡量成本，而不是以峰值负载为衡量标准。
+
+Auto Scaling适用于有稳定需求的应用和每时每天都变化的应用。
+
+
+
+Elastic Load Balancing
+
+Elastic Load Balancing能够自动在AWS上的多个EC2实例分发进入的应用程序流量。它能让组织在其应用程序中实现更高水平的容错能力，提供无缝分发流量的负载均衡能力。
+
+
+
+Amazon Elastic Beanstalk
+
+Elastic Beanstalk是在AWS上快速、简便地启动网络应用程序的方法。开发人员只需上传他们的代码，EB服务会自动完成其他细节，如资源配置，负载均衡，自动伸缩及监控等。它为各种平台提供支持，包括PHP, Java, .NET等。使用EB服务，企业组织能够完全掌握其应用程序所需资源，并且能够随时访问其底层资源。
+
+
+
+Amazon Virtual Private Cloud
+
+VPC容许企业组织划分出逻辑独立的AWS云私有区域，在其定义的私有区域内启动AWS资源。组织在这个虚拟环境内，拥有完全的控制权，包括IP地址范围、创建子网、路由网关等。除此之外，组织还可以通过硬、软VPN或者专用线路使用AWS Direct Connect将其数据中心网络扩展到AWS。
+
+
+
+Amazon Direct Connect
+
+AWS Direct Connect 容许组织建立其数据中心到AWS的专用连接。使用AWS DC，组织可以在AWS与其数据中心、办公室或托管环境之间建立私有连接。与基于Internet的VPN相比，AWS DC能够降低网络成本，增加网络带宽吞吐量，而且是一致的网络体验。
+
+
+
+Amazon Route 53
+
+Route 53是一个高可用的可扩展DNS服务。它将可读的域名转换成数字IP地址，为用户提供可靠、高效的方式，将最终用户引导到应用程序。Route53 也可以作为域名注册商，允许您直接从AWS购买和管理域名。AWS Lambda是一个面向后端开发人员的无管理员的计算平台，为开发人员运行代码，提供细粒度的定价。Lambda拥有可以在跨区的多个EC2实例上运行后端代码的能力，为企业组织提供AWS基础架构的高可用性，安全性，性能和可伸缩性。
+
+
+
+Auto Scaling
+
+Auto Scaling 容许企业组织根据特定的工作量条件来增加或减少它们在EC2计算能力。它不仅有助于维持应用程序可用，确保所需特定数量的EC2实例运行，而且它还允许资源的伸缩配置以满足动态变化的工作负载。企业可以根据它所需的计算能力来衡量成本，而不是以峰值负载为衡量标准。
+
+Auto Scaling适用于有稳定需求的应用和每时每天都变化的应用。
+
+
+
+Elastic Load Balancing
+
+Elastic Load Balancing能够自动在AWS上的多个EC2实例分发进入的应用程序流量。它能让组织在其应用程序中实现更高水平的容错能力，提供无缝分发流量的负载均衡能力。
+
+
+
+Amazon Elastic Beanstalk
+
+Elastic Beanstalk是在AWS上快速、简便地启动网络应用程序的方法。开发人员只需上传他们的代码，EB服务会自动完成其他细节，如资源配置，负载均衡，自动伸缩及监控等。它为各种平台提供支持，包括PHP, Java, .NET等。使用EB服务，企业组织能够完全掌握其应用程序所需资源，并且能够随时访问其底层资源。
+
+
+
+Amazon Virtual Private Cloud
+
+VPC容许企业组织划分出逻辑独立的AWS云私有区域，在其定义的私有区域内启动AWS资源。组织在这个虚拟环境内，拥有完全的控制权，包括IP地址范围、创建子网、路由网关等。除此之外，组织还可以通过硬、软VPN或者专用线路使用AWS Direct Connect将其数据中心网络扩展到AWS。
+
+
+
+Amazon Direct Connect
+
+AWS Direct Connect 容许组织建立其数据中心到AWS的专用连接。使用AWS DC，组织可以在AWS与其数据中心、办公室或托管环境之间建立私有连接。与基于Internet的VPN相比，AWS DC能够降低网络成本，增加网络带宽吞吐量，而且是一致的网络体验。
+
+
+
+Amazon Route 53
+
+Route 53是一个高可用的可扩展DNS服务。它将可读的域名转换成数字IP地址，为用户提供可靠、高效的方式，将最终用户引导到应用程序。Route53 也可以作为域名注册商，允许您直接从AWS购买和管理域名。
 
