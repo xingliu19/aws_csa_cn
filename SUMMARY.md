@@ -2,7 +2,6 @@
 
 * [本书简介](README.md)
 * [第一章 AWS简介](chapter1.md)
-  * [什么是云计算？](chapter1/jian-shu.md)
   * [AWS 云计算平台](chapter1/aws-yun-ji-suan-ping-tai.md)
 * [第二章 S3 和 Glacier存储](title2.md)
 * 第三章 EC2和EBS
