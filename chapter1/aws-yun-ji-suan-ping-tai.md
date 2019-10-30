@@ -90,33 +90,59 @@ Amazon Redshift是快速，完全托管的PB级数据仓库服务，它可以简
 
 ElastiCache是一个web服务，可简化在云中部署、操作以及调整数据缓存的工作。ElastiCache允许企业从快速、托管的、常驻内存的缓存中读取数据，改善应用程序的性能。目前为止，ElastiCache支持Memcached和Redis缓存引擎。
 
-
-
 # 五、管理工具
 
 AWS提供了各种工具，可帮助组织管理您的AWS资源。 本节概述了AWS为组织提供的管理工具。
-
-
 
 ## Amazon CloudWatch
 
 CloudWatch是AWS上资源、应用程序的监控服务。企业能使用CloudWatch收集和跟踪指标，收集和监控日志以及设置警报，从而在系统全局范围内知悉资源利用率、应用程序性能和运行状况。通过可视化监控，企业可以快速反应，确保业务正常运行。
 
-
-
 ## AWS CloudFormation
 
 CF为开发人员和系统管理员提供了一种有序的、可计划的创建、更新和管理AWS资源方式。CF定于了一套基于JSON的模板语言用于描述所需的AWS资源，通过模板语言，CF能以适当的方式配置和管理AWS资源。
-
-
 
 ## AWS CloudTrail
 
 CT是对AWS API调用进行记录，并提供日志审核的web服务。CT记录的信息包括API调用者的身份，调用时间，来源IP以及请求参数，服务响应返回的信息等。
 
-
-
 ## AWS Config
 
 Config是托管服务，可为企业提供AWS资源列表，配置历史记录和配置变更通知，实现安全治理。通过Config，企业可通观全局，发现现有资源，借助配置信息导出资源清单，审视其合理性。Config提供的能力可用于合规性审计、安全性分析，资源变更跟踪和故障排除。
+
+
+
+# 六、安全和身份验证
+
+AWS提供安全和身份服务，帮助组织在云上保护其数据和系统。本节概述了AWS的安全服务。
+
+
+
+## AWS Identity and Access Management \(IAM\)
+
+IAM帮助企业安全的控制其用户对AWS资源和服务的访问、使用。借助IAM，企业能够创建和管理AWS用户及用户群，并对其授予资源访问的权限。
+
+
+
+## AWS Key Management Service \(KMS\)
+
+KMS是托管的秘钥管理服务。企业可以轻易创建和管理他们的数据加密所需秘钥，并且通过HSM来保护秘钥的安全。KMS与其他服务集成，以保护这些服务使用时存储的数据。
+
+
+
+## AWS Directory Service
+
+DS允许企业在AWS上设置和运行微软的AD，或者将AWS的资源与本地AD相连。企业可以通过DS来管理用户群组，为其系统实现单点登录，创建组策略，域加入EC2实例等，以及其他简化在云上部署和管理Linux/Windows的工作。
+
+
+
+## AWS Certificate Manager
+
+CMr证书服务，可让企业轻松配置，管理和部署SSL / TLS证书，以便与云服务结合。它消除了购买，上载和续订SSL / TLS证书耗时的手动过程。 借助CM，企业可以快速生成证书，将其部署在AWS资源（如Elastic Load Balancing或Amazon CloudFront分发）上，CM还提供证书续订的功能。
+
+
+
+## AWS Web Application Firewall \(WAF\)
+
+防火墙有助于保护Web应用程序正常运行，免受危及安全性或消耗过多资源的攻击。 通过自定义Web安全规则，WAF使企业可以控制管控其Web应用程序的进入流量。
 
