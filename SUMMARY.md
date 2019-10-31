@@ -6,7 +6,8 @@
   * [AWS 云计算平台](chapter1/aws-yun-ji-suan-ping-tai.md)
 * [第二章 S3 和 Glacier存储](title2.md)
   * [对象存储与块、文件存储](title2/dui-xiang-cun-chu-yu-kuai-3001-wen-jian-cun-chu.md)
-  * [S3 存储](title2/s3-cun-chu.md)
+  * [S3 存储基础](title2/s3-cun-chu.md)
+  * [S3 高级特性](title2/s3-gao-ji-te-xing.md)
 * 第三章 EC2和EBS
 * 第四章 Amazon VPC
 * 第五章 ELB，CloudWatch和Auto Scaling
