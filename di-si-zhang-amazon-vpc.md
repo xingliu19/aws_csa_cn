@@ -78,11 +78,49 @@ Internet网关（IGW）是水平扩展高度可用的Amazon VPC组件，它是Am
 
 • 配置网络ACL和安全组规则，以允许相关流量往返于您的实例。
 
-
-
 您必须执行以下操作才能使Amazon EC2实例能够从Internet发送和接收流量：
 
 • 分配公共IP地址或EIP地址。
 
 您可以将路由范围扩展到路由表（0.0.0.0/0）中的所有目标，也可以将路由范围缩小到较小的IP地址范围。
+
+
+
+
+
+# DHCP 选项集合
+
+动态主机配置协议 \(DHCP\) 提供了将配置信息传递到 TCP/IP 网络中主机的标准。DHCP消息的选项字段包含配置参数。 其中一些参数是域名，域名服务器和netbios-node-type。
+
+在您创建Amazon VPC时，AWS会自动创建并关联DHCP选项集，并设置两个选项：域名服务器（默认为AmazonProvidedDNS）和域名（默认为您所在地区的域名）。 
+
+DHCP选项set元素允许您将Amazon EC2主机名指向您自己的资源。  您可以在DHCP选项集中配置以下值：
+
+• domain-name-servers——最多四台域名服务器 \(即 AmazonProvidedDNS\) 的 IP 地址。默认 DHCP 选项集指定 AmazonProvidedDNS。如果指定的域名服务器不止一台，请使用逗号将它们隔开。尽管可以指定最多四个域名服务器，但请注意，某些操作系统可能会施加较低的限制。如果要让实例接收 domain-name 中指定的自定义 DNS 主机名，则必须将 domain-name-servers 设置为自定义 DNS 服务器。
+
+• domain-name——如果您是在 us-east-1 中使用 AmazonProvidedDNS，请指定 ec2.internal。如果您是在其他区域中使用 AmazonProvidedDNS，请指定 region.compute.internal（例如 ap-northeast-1.compute.internal）。否则，请指定域名 \(例如 example.com\)。该值用于完成非限定的 DNS 主机名。
+
+• ntp-servers——最多四个网络时间协议 \(NTP\) 服务器的 IP 地址。
+
+• netbios-name-servers——最多四个 NetBIOS 名称服务器的 IP 地址。
+
+• netbios-node-type——NetBIOS 节点类型 \(1、2、4 或 8\)。
+
+
+
+
+
+# Elastic IP Addresses
+
+AWS在每个区域均维护一个公共IP地址资源池，您可以将其与VPC中的资源关联。 弹性IP地址（EIP）是池中用于分配、释放的静态公共IP地址。 EIP允许您维护一组固定的IP地址，而不受架构变化影响。使用EIP有以下要点：
+
+您须先分配一个EIP，然后才能将其链接到实例；
+
+EIP是在特定区域内的，不可跨区使用；
+
+您可以将EIP转移给另一个实例使用；
+
+EIP与您的账号关联，直到释放为止；
+
+EIP分配即收费。
 
