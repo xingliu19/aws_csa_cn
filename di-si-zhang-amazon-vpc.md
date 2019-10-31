@@ -84,15 +84,11 @@ Internet网关（IGW）是水平扩展高度可用的Amazon VPC组件，它是Am
 
 您可以将路由范围扩展到路由表（0.0.0.0/0）中的所有目标，也可以将路由范围缩小到较小的IP地址范围。
 
-
-
-
-
 # DHCP 选项集合
 
 动态主机配置协议 \(DHCP\) 提供了将配置信息传递到 TCP/IP 网络中主机的标准。DHCP消息的选项字段包含配置参数。 其中一些参数是域名，域名服务器和netbios-node-type。
 
-在您创建Amazon VPC时，AWS会自动创建并关联DHCP选项集，并设置两个选项：域名服务器（默认为AmazonProvidedDNS）和域名（默认为您所在地区的域名）。 
+在您创建Amazon VPC时，AWS会自动创建并关联DHCP选项集，并设置两个选项：域名服务器（默认为AmazonProvidedDNS）和域名（默认为您所在地区的域名）。
 
 DHCP选项set元素允许您将Amazon EC2主机名指向您自己的资源。  您可以在DHCP选项集中配置以下值：
 
@@ -105,10 +101,6 @@ DHCP选项set元素允许您将Amazon EC2主机名指向您自己的资源。  �
 • netbios-name-servers——最多四个 NetBIOS 名称服务器的 IP 地址。
 
 • netbios-node-type——NetBIOS 节点类型 \(1、2、4 或 8\)。
-
-
-
-
 
 # Elastic IP Addresses
 
@@ -123,4 +115,10 @@ EIP是在特定区域内的，不可跨区使用；
 EIP与您的账号关联，直到释放为止；
 
 EIP分配即收费。
+
+
+
+# Elastic Network Interfaces
+
+弹性网络接口（ENI）是一个虚拟网络接口，可以附加到VPC中的实例。ENI仅在VPC中可用，并且在创建时便与子网关联。他们具有一个公用IP和多个私有IP。如果他们拥有多个私有IP，则有一个是主要地址。通过分配多个网络接口，使实例拥有多个网卡（虚拟）。ENI不依附于实例存在，如果实例失效，可将其转移到别的实例。
 
