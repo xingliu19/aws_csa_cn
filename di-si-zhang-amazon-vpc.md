@@ -64,8 +64,6 @@ Peering
 
 表中的每个路由都指定一个目标CIDR和一个目标。
 
-
-
 # Internet网关
 
 Internet网关（IGW）是水平扩展高度可用的Amazon VPC组件，它是Amazon VPC实例与Internet通信的桥梁。 IGW在您的Amazon VPC路由表中为可路由Internet的流量提供了目标，并且它为已分配了公共IP地址的实例执行网络地址转换。
@@ -80,11 +78,11 @@ Internet网关（IGW）是水平扩展高度可用的Amazon VPC组件，它是Am
 
 • 配置网络ACL和安全组规则，以允许相关流量往返于您的实例。
 
+
+
 您必须执行以下操作才能使Amazon EC2实例能够从Internet发送和接收流量：
 
 • 分配公共IP地址或EIP地址。
 
 您可以将路由范围扩展到路由表（0.0.0.0/0）中的所有目标，也可以将路由范围缩小到较小的IP地址范围。
-
-
 
