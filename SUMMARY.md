@@ -9,7 +9,7 @@
   * [S3 存储基础](title2/s3-cun-chu.md)
   * [S3 高级特性](title2/s3-gao-ji-te-xing.md)
   * [Glacier](title2/glacier.md)
-* 第三章 EC2和EBS
+* [第三章 EC2和EBS](di-san-zhang-ec2-he-ebs.md)
 * 第四章 Amazon VPC
 * 第五章 ELB，CloudWatch和Auto Scaling
 * 第六章 AWS Identity and Access Management（IAM）
