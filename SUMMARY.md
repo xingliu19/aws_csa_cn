@@ -29,6 +29,10 @@
   * [Route 53 Overview](di-jiu-zhang-dns-he-route-53/route-53-overview.md)
 * [第十章 Amazon ElastiCache](di-shi-zhang-amazon-elasticache.md)
   * [In-Memory Caching](di-shi-zhang-amazon-elasticache/in-memory-caching.md)
-* 第十一章 Additional Key Services
-* 第十二章 Security on AWS
+* [第十一章 Additional Key Services](di-shi-yizhang-additional-key-services.md)
+  * [Storage and Content Delivery](di-shi-yizhang-additional-key-services/storage-and-content-delivery.md)
+  * [Security](di-shi-yizhang-additional-key-services/security.md)
+  * [Analytics](di-shi-yizhang-additional-key-services/analytics.md)
+* [第十二章 Security on AWS](di-shi-er-zhang-security-on-aws.md)
+  * [Shared Responsibility Model](di-shi-er-zhang-security-on-aws/shared-responsibility-model.md)
 
