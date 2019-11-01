@@ -35,4 +35,5 @@
   * [Analytics](di-shi-yizhang-additional-key-services/analytics.md)
 * [第十二章 Security on AWS](di-shi-er-zhang-security-on-aws.md)
   * [Shared Responsibility Model](di-shi-er-zhang-security-on-aws/shared-responsibility-model.md)
+  * [AWS Compliance Program](di-shi-er-zhang-security-on-aws/aws-compliance-program.md)
 
