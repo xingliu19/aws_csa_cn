@@ -17,9 +17,11 @@
   * [Elastic Load Balancing](di-wu-zhang-elb-cloudwatch-he-auto-scaling/elastic-load-balancing.md)
   * [CloudWatch](di-wu-zhang-elb-cloudwatch-he-auto-scaling/cloudwatch.md)
   * [Auto Scaling](di-wu-zhang-elb-cloudwatch-he-auto-scaling/auto-scaling.md)
-* 第六章 AWS Identity and Access Management（IAM）
-* 第七章 数据库
-* 第八章 SQS, SWF, and SNS
+* [第六章 AWS Identity and Access Management（IAM）](di-liu-zhang-aws-identity-and-access-management-iam.md)
+  * [基本原理](di-liu-zhang-aws-identity-and-access-management-iam/ji-ben-yuan-li.md)
+* [第七章 数据库](di-qi-zhang-shu-ju-ku.md)
+* [第八章 SQS, SWF, and SNS](di-ba-zhang-sqs-swf-and-sns.md)
+  * Simple Queue Service
 * 第九章 DNS和Route 53
 * 第十章 Amazon ElastiCache
 * 第十一章 Additional Key Services
