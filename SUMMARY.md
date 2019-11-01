@@ -22,6 +22,8 @@
 * [第七章 数据库](di-qi-zhang-shu-ju-ku.md)
 * [第八章 SQS, SWF, and SNS](di-ba-zhang-sqs-swf-and-sns.md)
   * Simple Queue Service
+  * [Simple Workflow Service](di-ba-zhang-sqs-swf-and-sns/simple-workflow-service.md)
+  * [Simple Notification Service](di-ba-zhang-sqs-swf-and-sns/simple-notification-service.md)
 * 第九章 DNS和Route 53
 * 第十章 Amazon ElastiCache
 * 第十一章 Additional Key Services
