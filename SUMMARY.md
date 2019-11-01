@@ -26,6 +26,7 @@
   * [Simple Notification Service](di-ba-zhang-sqs-swf-and-sns/simple-notification-service.md)
 * [第九章 DNS和Route 53](di-jiu-zhang-dns-he-route-53.md)
   * [Dynamic Name System](di-jiu-zhang-dns-he-route-53/dynamic-name-system.md)
+  * [Route 53 Overview](di-jiu-zhang-dns-he-route-53/route-53-overview.md)
 * 第十章 Amazon ElastiCache
 * 第十一章 Additional Key Services
 * 第十二章 Security on AWS
