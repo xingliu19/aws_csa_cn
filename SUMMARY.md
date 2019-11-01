@@ -15,6 +15,8 @@
 * [第四章 Amazon VPC](di-si-zhang-amazon-vpc.md)
 * [第五章 ELB，CloudWatch和Auto Scaling](di-wu-zhang-elb-cloudwatch-he-auto-scaling.md)
   * [Elastic Load Balancing](di-wu-zhang-elb-cloudwatch-he-auto-scaling/elastic-load-balancing.md)
+  * [CloudWatch](di-wu-zhang-elb-cloudwatch-he-auto-scaling/cloudwatch.md)
+  * [Auto Scaling](di-wu-zhang-elb-cloudwatch-he-auto-scaling/auto-scaling.md)
 * 第六章 AWS Identity and Access Management（IAM）
 * 第七章 数据库
 * 第八章 SQS, SWF, and SNS
